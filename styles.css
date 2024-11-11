@@ -1,4 +1,3 @@
-/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +18,7 @@ body {
     overflow: hidden;
 }
 
-/* Video Background Styling */
+/* video background styling */
 #bg-video {
     position: absolute;
     top: 0;
@@ -32,16 +31,16 @@ body {
     object-fit: cover;
 }
 
-/* Content Wrapper */
+/* content wrapper */
 .content-wrapper {
     position: relative;
     z-index: 1;
     min-height: 100vh;
     width: 100%;
-    background: rgba(0, 0, 0, 0.4); /* Optional overlay */
+    background: rgba(0, 0, 0, 0.4); 
 }
 
-/* Navigation Styling */
+/* bavigation styling */
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -81,7 +80,7 @@ body {
     color: black;
 }
 
-/* Main Content Area */
+/* main content */
 .main-content {
     padding: 2rem;
     color: white;
